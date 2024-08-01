@@ -34,7 +34,7 @@ public class Loginautomationtest {
         // Verify the outcome (Asserting to ensure that login worked properly)
         // Use explicit wait if necessary to wait for the element to be visible
         try {
-            Thread.sleep(2000); // Wait for 2 seconds (you can use WebDriverWait instead)
+            Thread.sleep(2000); // Wait for 2 seconds
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
